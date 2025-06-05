@@ -1,11 +1,8 @@
-import React from "react";
-
 import mock09 from "../assets/images/mock09.png";
 import rag from "../assets/images/rag.png";
 import "../assets/styles/Project.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-import { colors } from "@mui/material";
 import Chip from "@mui/material/Chip";
 
 const labelsFirst = ["Python 3", "Pandas", "Numpy", "Gradio 5", "Transformers"];
