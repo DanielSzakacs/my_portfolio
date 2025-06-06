@@ -1,4 +1,4 @@
-import mock09 from "../assets/images/mock09.png";
+// import mock09 from "../assets/images/mock09.png";
 import rag from "../assets/images/rag.png";
 import "../assets/styles/Project.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
