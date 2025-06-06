@@ -50,7 +50,7 @@ function Project() {
             </a>
           </p>
         </div>
-        <div className="project">
+        {/* <div className="project">
           <a
             href="https://yujisatojr.itch.io/highspeedchase"
             target="_blank"
@@ -70,7 +70,7 @@ function Project() {
             C# and Unity. This is available on Itch.io for gamers worldwide to
             enjoy.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
