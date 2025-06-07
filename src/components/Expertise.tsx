@@ -9,39 +9,37 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
 const labelsFirst = [
-  "React",
-  "TypeScript",
+  "Vue.js",
+  "Angular",
+  "Java",
+  "Puthon",
   "JavaScript",
-  "HTML5",
-  "CSS3",
-  "SASS",
-  "Flask",
+  "TypeScript",
+  "Vuetify",
   "Python",
+  "Flask",
   "SQL",
   "PostgreSQL",
-  "Postman",
 ];
 
 const labelsSecond = [
   "Git",
-  "GitHub Actions",
+  "GitHub",
+  "Actions",
   "Docker",
-  "AWS",
-  "Azure",
   "Linux",
-  "Snowflake",
-  "Pandas",
-  "Selenium",
+  "Agile",
+  "Scrum",
 ];
 
 const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
+  "Python",
+  "PyTorch",
+  "TensorFlow",
+  "scikit-learn",
+  "NumPy",
+  "Pandas",
+  "Matplotlib",
 ];
 
 function Expertise() {
@@ -54,8 +52,11 @@ function Expertise() {
             <FontAwesomeIcon icon={faReact} size="3x" />
             <h3>Full Stack Web Development</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as VueJS and Angular.
+              I have contributed to a wide range of web applications as part of
+              agile teams, working with both frontend and backend technologies.
+              My experience includes building components, integrating APIs, and
+              maintaining scalable features using modern Java and JavaScript
+              frameworks.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -69,9 +70,10 @@ function Expertise() {
             <FontAwesomeIcon icon={faDocker} size="3x" />
             <h3>DevOps & Automation</h3>
             <p>
-              Once the application is built, I help clients set up DevOps
-              testing, CI/CD pipelines, and deployment automation to support the
-              successful Go-Live.
+              I'm comfortable working with version control, deployment tools,
+              and automation scripts. I've supported development workflows with
+              CI/CD pipelines and containerization using Docker, and I'm
+              familiar with cloud environments and Linux-based systems.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -85,10 +87,10 @@ function Expertise() {
             <FontAwesomeIcon icon={faPython} size="3x" />
             <h3>AI/ML</h3>
             <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
+              I'm passionate about AI and data science. I've explored real-world
+              use cases and implemented models using popular ML frameworks. My
+              goal is to build smart, data-driven solutions that improve
+              decision-making and add business value.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
