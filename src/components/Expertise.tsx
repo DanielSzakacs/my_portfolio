@@ -12,7 +12,6 @@ const labelsFirst = [
   "Vue.js",
   "Angular",
   "Java",
-  "Puthon",
   "JavaScript",
   "TypeScript",
   "Vuetify",
