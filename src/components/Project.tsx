@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Chip from "@mui/material/Chip";
 
-const labelsFirst = ["Python 3", "Pandas", "Numpy", "Gradio 5", "Transformers"];
+const ragTechStack = ["Python", "Pandas", "Numpy", "Gradio 5", "Transformers"];
 const salesDemandTechStack = [
   "Python",
   "Optuna",
@@ -45,7 +45,7 @@ function Project() {
           </p>
           <div className="flex-chips">
             <span className="chip-title">Tech stack:</span>
-            {labelsFirst.map((label, index) => (
+            {ragTechStack.map((label, index) => (
               <Chip key={index} className="chip" label={label} />
             ))}
           </div>
