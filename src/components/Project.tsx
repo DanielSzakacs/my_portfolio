@@ -1,11 +1,20 @@
 // import mock09 from "../assets/images/mock09.png";
 import rag from "../assets/images/rag.png";
+import store from "../assets/images/store.png";
 import "../assets/styles/Project.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Chip from "@mui/material/Chip";
 
 const labelsFirst = ["Python 3", "Pandas", "Numpy", "Gradio 5", "Transformers"];
+const salesDemandTechStack = [
+  "Python",
+  "Optuna",
+  "MLflow",
+  "FastAPI",
+  "Docker",
+  "Pydantic",
+];
 
 function Project() {
   return (
@@ -50,27 +59,42 @@ function Project() {
             </a>
           </p>
         </div>
-        {/* <div className="project">
+
+        <div className="project">
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://github.com/DanielSzakacs/ML-Sales-Demand-Forecasting-MLOps"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
+            <img src={store} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://github.com/DanielSzakacs/ML-Sales-Demand-Forecasting-MLOps"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>High Speed Chase</h2>
+            <h2>Sales Demand Forecasting with MLOps</h2>
           </a>
           <p>
-            Designed, developed, and launched a 3D multiplayer racing game with
-            C# and Unity. This is available on Itch.io for gamers worldwide to
-            enjoy.
+            An End-to-End Machine Learning Project with Feature Engineering,
+            Model Tuning, MLflow Tracking, API Deployment & Monitoring.
           </p>
-        </div> */}
+          <div className="flex-chips">
+            <span className="chip-title">Tech stack:</span>
+            {salesDemandTechStack.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
+          <p>
+            <a
+              href="https://github.com/DanielSzakacs/ML-Sales-Demand-Forecasting-MLOps"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
