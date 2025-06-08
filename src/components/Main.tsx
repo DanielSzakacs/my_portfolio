@@ -31,11 +31,11 @@ function Main() {
           </div>
           <h1>Daniel Szakacs</h1>
           <p>Software Engineer</p>
-          <div className="lead-content">
+          {/* <div className="lead-content">
             <a href="../assets/cv/CV_2025.docx" download className="cv">
               Download Resume
             </a>
-          </div>
+          </div> */}
 
           <div className="mobile_social_icons">
             <a
