@@ -9,7 +9,7 @@ function Main() {
         <div className="image-wrapper">
           <img
             src="https://media.licdn.com/dms/image/v2/D4D03AQFrrhuFOOROYA/profile-displayphoto-shrink_200_200/B4DZdVZ2IbGUAg-/0/1749484528658?e=1755129600&v=beta&t=t1DU60Ir4cOtUNPRLSEos1xjxM-_5UBfBifIZhdOqdc"
-            alt="Avatar"
+            alt="profile_img"
           />
         </div>
         <div className="content">
