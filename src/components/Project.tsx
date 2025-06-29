@@ -1,12 +1,13 @@
 // import mock09 from "../assets/images/mock09.png";
 import rag from "../assets/images/rag.png";
+import dirty_cafa_data from "../assets/images/cafe_dirty_data.png";
 import store from "../assets/images/store.png";
 import "../assets/styles/Project.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Chip from "@mui/material/Chip";
 
-const ragTechStack = ["Python", "Pandas", "Numpy", "Gradio 5", "Transformers"];
+const ragTechStack = ["Python", "Pandas", "NumPy", "Gradio 5", "Transformers"];
 const salesDemandTechStack = [
   "Python",
   "Optuna",
@@ -15,12 +16,53 @@ const salesDemandTechStack = [
   "Docker",
   "Pydantic",
 ];
+const dirtyCaffeeDataTechStack = ["Python", "Pandas", "NumPy", "Jupyter"];
 
 function Project() {
   return (
     <div className="projects-container" id="projects">
       <h1>Personal Projects</h1>
       <div className="projects-grid">
+        <div className="project">
+          <a
+            href="https://github.com/DanielSzakacs/PR1_DE_Cafe_Sales_data_cleaning"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={dirty_cafa_data}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/DanielSzakacs/PR1_DE_Cafe_Sales_data_cleaning"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Cafe Sales - Data Cleaning & Feature Engineering</h2>
+          </a>
+          <p>
+            This project demonstrates core data cleaning and feature engineering
+            techniques using a small-scale, intentionally "dirty" dataset.
+          </p>
+          <div className="flex-chips">
+            <span className="chip-title">Tech stack:</span>
+            {dirtyCaffeeDataTechStack.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
+          <p>
+            <a
+              href="https://github.com/DanielSzakacs/PR1_DE_Cafe_Sales_data_cleaning"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+          </p>
+        </div>
         <div className="project">
           <a
             href="https://huggingface.co/spaces/DanielSokach/RAG"
