@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div id="resume">
       <div className="lead-content">
-        <a href="../cv/CV_2025.pdf" download className="cv">
+        <a href="src\cv\DanielSzakacs_cv_2025.pdf" download className="cv">
           Download Resume
         </a>
       </div>

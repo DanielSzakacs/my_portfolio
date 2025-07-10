@@ -8,7 +8,7 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQFrrhuFOOROYA/profile-displayphoto-shrink_200_200/B4DZdVZ2IbGUAg-/0/1749484528658?e=1755129600&v=beta&t=t1DU60Ir4cOtUNPRLSEos1xjxM-_5UBfBifIZhdOqdc"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQHHzP7e2b4oyw/profile-displayphoto-scale_200_200/B4DZf0Y5hNG8Ag-/0/1752151857787?e=1757548800&v=beta&t=x9STyxd18IN3ai5CHM-ETzFNUHbyIV_1V5uuFFIuvzQ"
             alt="profile_img"
           />
         </div>
