@@ -28,7 +28,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">
               Wien, Austria
             </h4>
-            <p>Full-stack Developer</p>
+            <p>Software engineer</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -40,7 +40,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">
               Budapest, Hungary
             </h4>
-            <p>Full-Stack Developer</p>
+            <p>Software engineer</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
